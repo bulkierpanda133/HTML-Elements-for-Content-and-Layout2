@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Navigation Bar */
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-list li a:hover {
+    color: #f2f2f2;
+}
+
+/* Image Gallery */
+.image-gallery {
+    text-align: center;
+}
+
+.image-gallery img {
+    width: 200px;
+    margin: 10px;
+    transition: transform 0.3s, border 0.3s;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.1);
+    border: 3px solid #f2f2f2;
+}
+
+/* Call-to-Action Buttons */
+.cta-section {
+    text-align: center;
+}
+
+.cta-buttons button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.cta-buttons button:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+
+/* Feedback Form */
+.feedback-form {
+    max-width: 400px;
+    margin: auto;
+    text-align: left;
+}
+
+.feedback-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+}
+
+.feedback-form input:focus,
+.feedback-form textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.feedback-form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.feedback-form button:hover {
+    background-color: #218838;
+}
+
+/* Data Table */
+.data-table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.data-table th,
+.data-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.data-table thead {
+    background-color: #f2f2f2;
+}
+
+.data-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}

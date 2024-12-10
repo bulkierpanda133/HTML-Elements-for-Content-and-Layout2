@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entertainment Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul class="nav-list">
+            <li><a href="#movies">Movies</a></li>
+            <li><a href="#music">Music</a></li>
+            <li><a href="#games">Games</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Image Gallery -->
+    <section id="movies" class="image-gallery">
+        <h2>Movie Posters</h2>
+        <img src="poster1.jpg" alt="Movie Poster 1">
+        <img src="poster2.jpg" alt="Movie Poster 2">
+        <img src="poster3.jpg" alt="Movie Poster 3">
+    </section>
+
+    <!-- Call-to-Action Buttons -->
+    <section id="music" class="cta-section">
+        <h2>Explore Entertainment</h2>
+        <div class="cta-buttons">
+            <button>Watch Now</button>
+            <button>Listen Here</button>
+            <button>Play Game</button>
+        </div>
+    </section>
+
+    <!-- Feedback Form -->
+    <section id="contact" class="feedback-section">
+        <h2>Feedback</h2>
+        <form class="feedback-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="feedback">Feedback:</label>
+            <textarea id="feedback" name="feedback" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Data Table -->
+    <section id="games" class="data-table-section">
+        <h2>Game Schedule</h2>
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Game</th>
+                    <th>Release Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Game 1</td>
+                    <td>2024-01-01</td>
+                </tr>
+                <tr>
+                    <td>Game 2</td>
+                    <td>2024-02-01</td>
+                </tr>
+                <tr>
+                    <td>Game 3</td>
+                    <td>2024-03-01</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
